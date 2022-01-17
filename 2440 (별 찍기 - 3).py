@@ -14,3 +14,8 @@ new_n = n+1
 
 for i in range(1, new_n):
     print('*' * (new_n - i))
+
+n = int(input())
+
+for i in range(0, n):
+    print('*' * (n - i))
