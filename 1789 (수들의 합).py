@@ -10,7 +10,7 @@
 S = int(input())
 num = 0
 
-for i in range(1,S+1):
+for i in range(1, S+1):
     num += i
     if num > S:
         print(i-1)
@@ -21,7 +21,7 @@ S = int(input())
 num = 0
 x = 0
 
-for i in range(1,S+1):
+for i in range(1, S+1):
     num += 1
     x += i
     if x > S:
