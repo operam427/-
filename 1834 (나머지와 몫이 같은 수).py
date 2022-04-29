@@ -10,10 +10,8 @@ N으로 나누었을 때 나머지와 몫이 같은 모든 자연수의 합을 �
 '''
 
 N = int(input())
-num = 0
 sum = 0
 
 for i in range(1, N):
-    num = N*i + i
-    sum += num
+    sum += N*i + i
 print(sum)
