@@ -11,6 +11,15 @@ Rev(X)를 X의 모든 자리수를 역순으로 만드는 함수라고 하자.
 첫째 줄에 문제의 정답을 출력한다.
 '''
 
+X, Y = map(str, input().split())
+X = X[::-1]
+Y = Y[::-1]
+
+Z = str(int(X) + int(Y))
+Z = Z[::-1]
+print(int(Z))
+
+
 def Rev(A):
     answer = ""
     for i in range(1, len(A)+1):
